@@ -221,8 +221,7 @@ Using the miles function below do the following:
 */
 
 function miles(KM){
-  const factor = 0.621371;
-  return KM * factor;
+  return KM * 0.621371;
 }
 
 console.log('task 5a', miles(1));
@@ -251,10 +250,11 @@ Using the annoyingSong function below do the following:
     "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
+function annoyingSong(i){
+        return i + ' bottles of soda on the wall, ' + i + ' bottles of soda, take one down pass it around ' + (i - 1) + ' bottles of soda on the wall';
+       
 }
-
+console.log('task 6', annoyingSong(10))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
